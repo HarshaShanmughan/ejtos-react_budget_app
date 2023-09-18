@@ -76,6 +76,6 @@ const AllocationForm = (props) => {
 
         </div>
     );
-};
+}
 
 export default AllocationForm;
