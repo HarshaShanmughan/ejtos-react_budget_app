@@ -13,7 +13,8 @@ const Currency = () => {
 }
 
 return(
-    <div className='alert alert-secondary'> Currency {	      <select name="Currency" id="Currency" onChange={event=>changeCurrency(event.target.value)}>
+    <div className='alert alert-secondary'> Currency {	     
+	<select name="Currency" id="Currency" onChange={event=>changeCurrency(event.target.value)}>
 	        <option value="£">pound(£)</option>
 	        <option value="₹">Rupee(₹)</option>
 	        <option value="€">Euro(€)</option>
@@ -22,7 +23,7 @@ return(
 	      }	
 	    </div>
 	    );
-	};
+	}
 	
 	export default Currency;
 
