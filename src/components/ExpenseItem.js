@@ -33,6 +33,6 @@ const ExpenseItem = (props) => {
         <td><TiDelete size='1.5em' onClick={handleDeleteExpense}></TiDelete></td>
         </tr>
     );
-};
+}
 
 export default ExpenseItem;
