@@ -22,6 +22,6 @@ const ExpenseList = () => {
             </tbody>
         </table>
     );
-};
+}
 
 export default ExpenseList;
